@@ -88,10 +88,12 @@
 
         <div>
           <label for="pesan">Pesan</label>
-          <textarea id="pesan"
-                    name="pesan"
-                    minlength="10"
-                    required></textarea>
+  <textarea id="pesan"
+            name="pesan"
+            minlength="10"
+            aria-describedby="bantuan-pesan"
+            required></textarea>
+  <p id="bantuan-pesan">Pesan minimal 10 karakter</p>
         </div>
 
         <button type="submit">Kirim pesan</button>
