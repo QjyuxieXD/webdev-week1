@@ -50,7 +50,7 @@ p {
 
 .nav-link {
   color: var(--color-primary);
-  padding: var(--space-1);
+  padding: var(--space-2);
   text-underline-offset: 0.2em;
 }
 
@@ -71,7 +71,7 @@ p {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
-  padding: var(--space-2);
+  padding: var(--space-3);
   margin-block-end: var(--space-2);
 }
 
@@ -89,7 +89,7 @@ table {
 
 th,
 td {
-  padding: var(--space-1);
+  padding: var(--space-2);
   border: 1px solid var(--color-border);
   text-align: start;
 }
@@ -110,7 +110,7 @@ input,
 textarea {
   width: 100%;
   max-width: 32rem;
-  padding: 0.75rem;
+  padding: var(--space-2);
   border: 1px solid var(--color-border);
   border-radius: 0.25rem;
 }
