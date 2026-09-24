@@ -5,16 +5,18 @@
 }
 
 :root {
-  --color-primary: #1d4ed8;
+  --color-primary: #7f1d1d;
   --color-text: #1f2937;
   --color-muted: #4b5563;
   --color-surface: #ffffff;
   --color-border: #d1d5db;
-  --color-focus: #f59e0b;
+  --color-focus: #d97706;
+
   --space-1: 0.5rem;
   --space-2: 1rem;
   --space-3: 1.5rem;
-  --radius: 0.5rem;
+
+  --radius: 0.75rem;
 }
 
 body {
