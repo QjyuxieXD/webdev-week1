@@ -72,8 +72,21 @@ p {
   border: 1px solid var(--color-border);
   border-radius: var(--radius);
   padding: var(--space-3);
-  margin-block-end: var(--space-2);
+  margin-block-end: var(--space-3);
+  text-align: center;
 }
+
+
+.card img {
+  margin-inline: auto;
+}
+
+.card p {
+  margin-inline: auto;
+  text-align: center;
+}
+
+
 
 img {
   display: block;
